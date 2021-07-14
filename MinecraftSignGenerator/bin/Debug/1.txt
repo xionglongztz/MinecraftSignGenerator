@@ -1,0 +1,130 @@
+/give @p 牌子id{BlockEntityTag:{
+Text1:"
+{\"text\":\"第一行内容\",\"color\":\"颜色\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"要执行的指令\"}}",'
+Text2:"{与第一行相同格式}",
+Text3:"{...}",
+Text4:"{...}"}}
+
+
+
+
+/give @p oak_sign{
+	BlockEntityTag:{
+Text1:"
+{\"text\":\"第1行内容\",\"color\":\"yellow\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/say 1\"}}",'
+
+Text2:"
+{\"text\":\"第2行内容\",\"color\":\"red\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/say 2\"}}",
+
+Text3:"
+{\"text\":\"第3行内容\",\"color\":\"aqra\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"3\"}}",
+
+Text4:"
+{\"text\":\"第4行内容\",\"color\":\"green\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/tellraw @p t\"}}",
+
+}}
+
+
+
+
+
+
+
+
+
+/give @p oak_sign
+
+{BlockEntityTag:{
+Text1:
+
+"{\"text\":\"第1行内容\",\"color\":\"yellow\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/say 1\"}}"
+,
+Text2:
+
+"{\"text\":\"第2行内容\",\"color\":\"red\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/say 2\"}}"
+,
+Text3:
+"{\"text\":\"第3行内容\",\"color\":\"aqra\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/say 23333\"}}"
+,
+Text4:
+"{\"text\":\"第4行内容\",\"color\":\"green\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/tellraw @a 66666\"}}"
+}}
+
+
+
+
+
+/give @p oak_sign
+
+{BlockEntityTag:{
+Text1:
+"{\"text\":\"第1行内容\",\"color\":\"yellow\"}",Text2:
+"{\"text\":\"第2行内容\",\"color\":\"red\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/say 2\"}}",
+Text4:
+"{\"text\":\"第4行内容\",\"color\":\"green\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/tellraw @a 66666\"}}"
+}}
+
+
+
+/give @p minecraft:oak_sign
+{BlockEntityTag:{
+Text1:"{\"text\":\"第一行}",
+Text2:"{\"text\":\"2,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/say 2\"}}",
+Text4:"{\"text\":\"4,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @a 6666\"}}"}}
+最近的玩家(@p)
+随机玩家(@r)
+所有玩家(@a)
+当前实体(@s
+
+
+白桦木告示牌
+绯红木告示牌
+深色橡木告示牌
+丛林木告示牌
+橡木告示牌
+云杉木告示牌
+诡异木告示牌
+
+
+
+
+Text1:
+"{\"text\":\"第1行内容\",\"color\":\"yellow\",\"clickEvent\":
+{\"action\":\"run_command\",\"value\":\"/say 1\"}}"
+
+
+
+
+
+
+
+
+
+
+/give @p minecraft:oak_sign
+{BlockEntityTag:{
+Text1:"{\"text\":\"123\",\"color\":\"dark_blue\",\"bold\":\"true\",\"clickEvent\":{\"action\"\"run_command\",\"value\":\" /say 1\"}},
+Text2:"{\"text\":\"456\",\"color\":\"dark_green\",\"italic\":\"true\",\"clickEvent\":{\"action\"\"run_command\",\"value\":\" /say 2\"}},
+Text3:"{\"text\":\"789\",\"color\":\"dark_aqua\",\"strikethrough\":\"true\",\"clickEvent\":{\"action\"\"run_command\",\"value\":\" /say 3\"}},
+Text4:"{\"text\":\"ABC\",\"color\":\"dark_red\",\"underlined\":\"true\",\"clickEvent\":{\"action\"\"run_command\",\"value\":\" /say 4\"}}}}
+
+
+
+
+
+
+/give @p minecraft:oak_sign{BlockEntityTag:{Text1:"{\"text\":\"123}"}}
+
+
+/give @p minecraft:oak_sign{BlockEntityTag:{Text1:"{\"text\":\"1\"}",Text2:"{\"text\":\"2\"}",,Text3:"{\"text\":\"3\"}",,Text4:"{\"text\":\"4\"}"}}
