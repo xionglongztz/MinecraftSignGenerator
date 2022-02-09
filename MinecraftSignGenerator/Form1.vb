@@ -156,6 +156,7 @@
         TextBox9.Text = Command '将指令传递给文本框
         Button3.Enabled = True
         Button6.Enabled = True
+        Button2.Text = "更新指令(&G)"
     End Sub
     Private Function TextGen(a As String, b As Integer, c As Boolean, d As Boolean, e As Boolean, f As Boolean, g As String) '自定义一个函数，为了减小体积
         TextGen = """{\""text\"":\""" + a '文本
@@ -209,7 +210,8 @@
     End Function
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Clipboard.SetText(TextBox9.Text) '复制到剪贴板
+        'Clipboard.SetText(TextBox9.Text) '复制到剪贴板
+        Clipboard.SetDataObject(TextBox9.Text)'上面的指令有可能出现问题，经过一系列修改改成下面这个指令，防止程序出问题，提高稳定性
         MsgBox("嗷呜~~(^・ω・^ )指令已复制到剪贴板" & vbCrLf & "去Minecraft的聊天栏或者命令方块里按下Ctrl+V来输入指令吧~" & vbCrLf & "如果指令过长，建议输入在命令方块内", vbInformation, "提示")
     End Sub
 
@@ -351,6 +353,7 @@
             CheckBox16.Checked = False
             Button3.Enabled = False
             Button6.Enabled = False
+            Button2.Text = "生成指令(&G)"
         End If
     End Sub
 
